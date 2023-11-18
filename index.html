@@ -125,8 +125,13 @@ function showShadowPos() {
   }
 
 }
+  
+var createPfpCounter = 0;
 
 function createPfp() {
+
+  createPfpCounter++;
+  
   // Clear the existing content
   document.getElementById('pfpholder').innerHTML = "";
   document.getElementById('downloadholder').innerHTML = "";
